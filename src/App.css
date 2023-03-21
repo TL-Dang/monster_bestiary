@@ -8,6 +8,7 @@ body {
     rgb(253, 201, 29) 50%,
     rgb(197, 101, 6) 100%
   );
+  text-align: center;
 }
 
 .app-title {
@@ -15,5 +16,5 @@ body {
   margin-bottom: 50px;
   font-size: 75px;
   color: whitesmoke;
-  font: Poiret One;
+  font-family: Poiret One;
 }

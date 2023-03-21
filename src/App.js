@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+
 import CardList from './components/card-list/card-list.component';
 import SearchBox from './components/search-box/search-box.component';
 import './App.css';
@@ -32,7 +33,7 @@ const App = () => {
       <h1 className='app-title'>Monster Bestiary</h1>
 
       <SearchBox
-        className='monsters-search-box'
+        className='search-box'
         onChangeHandler={onSearchChange}
         placeholder='search monsters'
       />
